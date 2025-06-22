@@ -1,0 +1,23 @@
+{
+  "name": "troque-bem-backend",
+  "version": "1.0.0",
+  "description": "API para buscar informações de cartas Pokémon na LigaPokemon.com.br",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "pokemon",
+    "api",
+    "scraping",
+    "troque-bem"
+  ],
+  "author": "Lucas Cosentino",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-html-parser": "^6.1.4"
+  }
+}
